@@ -1,0 +1,242 @@
+echo hola
+echo "Hoy es Lunes"
+echo $HOME
+man echo
+man man
+pwd
+ls
+ls -l
+mkdir clase4_113
+ls -l
+cd clase_113/
+cd clase4_113
+pwd
+history
+cat archivo1.txt
+cat > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat > archivo2.txt
+ls -l
+cat aarchivo1.txt archivo2.txt > archivo3.txt
+cat archivo1.txt archivo2.txt > archivo3.txt
+cat archivo3.txt
+grep Linea4 archivo3.txt
+grep -i LINEA4 archivo3.txt
+grep -c LINEA4 archivo3.txt
+grep -c Linea4 archivo3.txt
+grep -n Linea4 archivo3.txt
+grep -v Linea4 archivo3.txt
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd ..
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:hernandezjose94/vmvagrant_repo.git
+ls -l
+cd vmvagrant_repo/
+ls -l
+echo "Mi primer repo"
+echo "Mi primer repo" > texto1.txt
+ls -l
+cat texto texto1.txt 
+git status
+git add .
+git status
+git commit -m "agrego texto1.txt"
+git config --global user.email "davidhernandez.947@gmail.com"
+git commit -m "agrego texto1.txt"
+git status
+ls -l
+git push
+exit
+pwd
+ls -l
+cd clase4_113
+ls -l
+cat archivo3.txt 
+grep linea3 archivo3.txt 
+grep -i Linea3 archivo3.txt 
+grep -i 3 archivo3.txt
+grep -i linea archivo3.txt
+grep -e 3 archivo3.txt
+grep -c 3 archivo3.txt
+grep -ci linea archivo3.txt
+grep -n 3 archivo3.txt
+grep -v 3 archivo3.txt
+clear
+tree
+sudo apt update
+sudo apt install tree
+tree
+ls -l
+cd ..
+tree
+ls -l
+mkdir clase5_113
+cd clase5_113/
+pwd
+ls -l
+mkdir practica
+ls-l
+ls -l
+cd practica/
+ls -l
+touch practica1.txt
+ls -l
+cat practica1.txt
+cp practica1.txt practica2.txt
+ls -l
+rm practica1.txt
+ls -l
+mv practica2.txt /home/vagrant/clase5_113
+ls -l
+cd ..
+ls -l
+rmdir practica
+ls -l
+pwd
+mkdir facturas pedidos
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+pwd
+cd /home/vagrant/clase5_113
+exit() vagrant halt
+cd ~
+vagrant halt
+pwd
+cd clase5_113/
+mkdir -p hernandez_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+grep vagrant /etc/passwd
+cat /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+grep vagrant /etc/group
+cd ..
+pwd
+sudo groupadd Alumnos
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+cat /etc/passwd
+cat /etc/group
+ls -l /home
+sudo passwd pepe
+pwd
+su - pepe
+pwd
+exit
+ssh-keygen -t ed25519
+ssh.keygen -t ed25519
+ssh-keygen -t ed 25519
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd ~
+mkdir repogit
+cd repogit
+git clone git@github.com:hernandezjose94/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+HOME_URL /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url etc/os-release
+grep_url /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "davidhernandez.947@gmail.com"
+git conig --global user.name "hernandezjose94"
+git config --global user.name "hernandezjose94"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt
+cd . .
+cd ~/repogit/TP_AySO
+ls -l
+git status
+git commit -m "ADD: agregagdo 1er ejercicio sobre datos_usuarios.txt"
+git status
+git p
+git push
+git add .
+git config --global user.email "davihernandez.947@gmail.com"
+git config --globaluser.name "hernandezjose94"
+d ~`dcd ~/repogit/TP_AySOcd ~/re
+
+
+
+
+
+
+cd ~/repogit/TP_AySO
+ls -l
+git add .
+git config --global user.email "davidhernandez.947@gmail.com"
+git config --global user.name "hernandezjose94"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat $HOME/.ssh/*.pub
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git add .
+cat <<EOF >> README.md
+Alumno: Jose Hernandez
+División: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+mv datos_usuario.txt datos_usuarios.txt
+git add .
+git commit -m "fix: Renombrando archivo de usuario a usuarios"
+git push
+cat <<EOF >> README.md
+Alumno: Jose Hernandez
+División: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+gigt commit-m "ADD: Añadiendo Readme y datos de usuario"
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+script_dir.sh
+echo "mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script_dir.sh
+```[cite: 8]
+chmod +x script_dir.sh
+```[cite: 8]
+echo "mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script_dir.sh
+```[cite: 10]
+cat script_dir.sh[cite: 10]
+[200~chmod +x script_dir.sh
+chmod +x script_dir.sh
+```[cite: 10]
+echo "mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script_dir.sh
+chmod +x script_dir.sh
+./script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
